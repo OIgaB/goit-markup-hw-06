@@ -161,6 +161,7 @@ padding-right: 15px;
 }
 .footer-wrap {
     display: flex;
+    align-items: baseline;
 }
 .adress-wrap {
     margin-top: 20px;
@@ -385,7 +386,6 @@ padding-right: 15px;
     left: 50%;
     min-width: 528px;
     min-height: 581px;
-    padding: 8px;
     background-color: var(--tertiary-bg-and-text-color);
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms var(--transition-timing-function);
@@ -482,7 +482,6 @@ padding-right: 15px;
     letter-spacing: 0.01em;
     color: currentColor;
     transition: border-color 250ms var(--transition-timing-function), outline-color 250ms var(--transition-timing-function);
-
 }
 .form-comment:hover,
 .form-comment:focus {
@@ -502,7 +501,6 @@ padding-right: 15px;
 
 .form-label-terms {
     position: relative;
-    text-align: center;
     font-size: 14px;
     line-height: 1.7;
     color: var(--secondary-text-color);
